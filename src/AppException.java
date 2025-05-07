@@ -1,4 +1,3 @@
-package com.investwise;
 
 public class AppException extends Exception {
     
