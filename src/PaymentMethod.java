@@ -1,4 +1,4 @@
-
+package com.investwise;
 public class PaymentMethod {
     private String type;  
     private String name;  
@@ -70,7 +70,7 @@ public class PaymentMethod {
                     ", isDefault=" + isDefault + "]";
         } else {
             return "PaymentMethod [type=" + type + ", name=" + name + 
-                    ", accountNumber=****" + (accountNumber != null ? accountNumber.substring(accountNumber.length() - 4) : "") +
+                    ", accountNumber=****" + (accountNumber != null ? accountNumber.substring(Math.max(0, accountNumber.length() - 4)) : "") + 
                     ", isDefault=" + isDefault + "]";
         }
     }

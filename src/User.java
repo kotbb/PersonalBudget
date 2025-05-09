@@ -1,4 +1,4 @@
-
+package com.investwise;
 import java.util.Date;
 public class User {
     private String username;
