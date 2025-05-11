@@ -1,6 +1,6 @@
 # Personal Budget Management Application
 
-A Java-based CLI application for managing personal finances, tracking expenses, setting budgets, and analyzing spending patterns.
+A Java-based console application for managing personal finances, tracking expenses, setting budgets, and analyzing spending patterns.
 
 ## Features
 
@@ -56,12 +56,3 @@ A Java-based CLI application for managing personal finances, tracking expenses, 
 
 All data is stored locally using Java serialization in the file "budget_app_data.ser". This ensures your financial data persists between sessions.
 
-## Recent Improvements
-
-- Budget reset now properly clears all related expenses
-- Enhanced budget alerts show warnings directly on dashboard
-- Improved spending analysis with visual distribution charts
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
