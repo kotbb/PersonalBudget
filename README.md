@@ -1,58 +1,68 @@
-# Personal Budget Management Application
+# 💸 Personal Budget Management Application
 
-A Java-based console application for managing personal finances, tracking expenses, setting budgets, and analyzing spending patterns.
+A Java-based console application for managing personal finances—track expenses, set budgets, manage incomes, and analyze spending patterns effortlessly.
 
-## Features
+---
 
-- 👤 **User Management**: Secure signup and login with OTP verification
-- 💰 **Budget Tracking**: Set spending limits with alerts when exceeding limits
-- 📊 **Expense Management**: Record expenses with category-based organization
-- 💵 **Income Tracking**: Track income from multiple sources
-- 📈 **Financial Analysis**: Get detailed breakdown of spending patterns
-- 💳 **Payment Methods**: Manage multiple payment methods and their balances
+## 🚀 Features
 
-## Getting Started
+- 👤 **User Management**: Secure signup and login with OTP verification  
+- 💰 **Budget Tracking**: Set spending limits with alerts when exceeding them  
+- 📊 **Expense Management**: Record expenses organized by categories  
+- 💵 **Income Tracking**: Manage income from multiple sources  
+- 📈 **Financial Analysis**: Visual breakdown of spending patterns  
+- 💳 **Payment Methods**: Track balances across multiple payment methods  
 
-### Prerequisites
+---
 
-- Java
-- Basic understanding of command line interfaces
+## 🛠 Tools Used
 
-## Usage Guide
+| Tool         | Purpose                                         |
+|--------------|--------------------------------------------------|
+| [draw.io](https://draw.io)     | System architecture and flow diagrams        |
+| [Structurizr](https://structurizr.com) | C4-based software architecture modeling      |
+| [IntelliJ IDEA](https://www.jetbrains.com/idea/) | Java development environment                   |
+| [Canva](https://canva.com)     | UI mockups and project presentation assets  |
+| [ChatGPT](https://chat.openai.com) | Planning, code generation, and debugging help |
 
-### First-time Setup
+---
 
-1. Run the application and select "Sign Up" from the main menu
-2. Enter your details and verify with the OTP code shown
-3. After logging in, you'll be taken to the dashboard
+## 📦 Getting Started
 
-### Setting Up a Budget
+### ✅ Prerequisites
 
-1. From the dashboard, select "Budget Management"
-2. Choose "Set Budget for Category"
-3. Enter a category name and budget limit
+- Java installed (JDK 8 or higher)
+- Basic familiarity with command line interfaces
 
-### Tracking Expenses
+---
 
-1. From the dashboard, select "Expense Management"
-2. Choose "Add Expense"
-3. Enter category, amount, date, and payment method
+## 🧭 Usage Guide
 
-### Analyzing Spending
+### 🔐 First-Time Setup
 
-1. From the dashboard, select "Budget Management"
-2. Choose "Analyze Spending" to see a breakdown of expenses
-3. View the percentage distribution across categories
+1. Run the application
+2. Choose `Sign Up` from the main menu
+3. Enter user details and verify with displayed OTP
+4. On successful login, access the main dashboard
 
-## Project Structure
+### 📌 Setting Up a Budget
 
-- `com.budgetapp.Main`: Application entry point and UI
-- `com.budgetapp.models`: Data models (User, Budget, Expense, etc.)
-- `com.budgetapp.services`: Service classes for authentication, persistence, etc.
-- `com.budgetapp.exceptions`: Custom exception classes
-- `com.budgetapp.utils`: Utility classes for dates, validation, etc.
+1. Navigate to `Budget Management`
+2. Select `Set Budget for Category`
+3. Enter category name and spending limit
 
-## Data Persistence
+### 🧾 Tracking Expenses
 
-All data is stored locally using Java serialization in the file "budget_app_data.ser". This ensures your financial data persists between sessions.
+1. Go to `Expense Management`
+2. Select `Add Expense`
+3. Provide category, amount, date, and payment method
 
+### 📊 Analyzing Spending
+
+1. Open `Budget Management`
+2. Choose `Analyze Spending`
+3. View a percentage-based breakdown of your expenses
+
+---
+
+## 🧱 Project Structure
