@@ -6,7 +6,7 @@ A Java-based console application for managing personal finances—track expenses
 
 ## 🚀 Features
 
-- 👤 **User Management**: Secure signup and login with OTP verification  
+- 👤 **User Management**: Secure signup and login with OTP Verification  
 - 💰 **Budget Tracking**: Set spending limits with alerts when exceeding them  
 - 📊 **Expense Management**: Record expenses organized by categories  
 - 💵 **Income Tracking**: Manage income from multiple sources  
