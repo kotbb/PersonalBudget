@@ -66,3 +66,24 @@ A Java-based console application for managing personal finances—track expenses
 ---
 
 ## 🧱 Project Structure
+com.budgetapp/
+├── Main.java # Application entry point
+├── models/ # User, Budget, Expense, etc.
+├── services/ # Auth, persistence, business logic
+├── exceptions/ # Custom exception handling
+└── utils/ # Date parsing, validations, etc.
+
+---
+
+## 💾 Data Persistence
+
+All financial data is stored locally using Java serialization in:
+budget_app_data.ser
+
+---
+
+## 📃 License
+
+This project is for educational purposes as part of a Software Engineering course. Feel free to fork and build on top of it!
+
+---
