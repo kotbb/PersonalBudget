@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.budgetapp"},{"l":"com.budgetapp.exceptions"},{"l":"com.budgetapp.models"},{"l":"com.budgetapp.services"},{"l":"com.budgetapp.utils"}];updateSearchResults();
